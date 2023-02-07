@@ -63,11 +63,25 @@ body {
 }
 
 .weather-info {
-    line-height: 2;
     padding: 1rem;
     margin: 0 3rem 0 1rem;
 }
 
 .city {
     margin-bottom: .5rem;
+}
+
+.temp {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.condition {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.wind {
+    text-transform: none;
 }
